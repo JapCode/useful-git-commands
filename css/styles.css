@@ -31,3 +31,37 @@
   .icon-git:before {
     content: "\eae7";
   }
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(16, 0, 43);
+}
+.menu a {
+    color: white;    
+} 
+.menu .logo-git {
+    font-size: 30px;
+    margin-left: 25px;
+}
+.menu .logo-git a {
+    color: #E0AAFF;
+    
+}
+.menu .menu-elements {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.menu .menu-elements li {
+    margin: 0 15px;
+}
