@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?5flb5y');
+    src:  url('fonts/icomoon.eot?5flb5y#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?5flb5y') format('truetype'),
+      url('fonts/icomoon.woff?5flb5y') format('woff'),
+      url('fonts/icomoon.svg?5flb5y#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-menu:before {
+    content: "\e9bd";
+  }
+  .icon-git:before {
+    content: "\eae7";
+  }
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(16, 0, 43);
+}
+.menu a {
+    color: white;    
+} 
+.menu .logo-git {
+    font-size: 30px;
+    margin-left: 25px;
+}
+.menu .logo-git a {
+    color: #E0AAFF;
+    
+}
+.menu .menu-elements {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.menu .menu-elements li {
+    margin: 0 15px;
+}
