@@ -5,23 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Useful Git Commands</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-<<<<<<< HEAD
-    <main>
-        <h1>comandos utiles de git</h1>
-        <p>
-            este proyecto esta hecho recolectandon informacion de el <a href="https://platzi.com/clases/git-github/"> Curso Profesional de Git y GitHub</a>
-        </p>
-    </main>
-=======
     <header>
         <nav class="menu">
             <div class="logo-git">
                 <a href="https://git-scm.com"> <i class="icon-git"></i> Git</a>
             </div>
             <ul class="menu-elements">
-               <!--  <li>
+                <!--  <li>
                     <i class="icon-menu"></i>
                 </li> -->
                 <li>
@@ -40,6 +34,119 @@
             </ul>
         </nav>
     </header>
->>>>>>> 07a6c6a7f3558ed5a7a98ac9c787793df200d253
+    <main>
+        <h1>Comandos Utiles de Git</h1>
+        <p>
+            este proyecto esta hecho recolectandon informacion de el <a href="https://platzi.com/clases/git-github/"> Curso Profesional de Git y GitHub</a> en <a href="https://platzi.com/home"> Platzi</a> con el fin de ayudarme a recordar algun comando de git en caso de que lo olvide y para practicar un poco de html y css, si haz llegado hazta aqui y te intereso el tema y tienes ideas para mejorarlo recuerda que puedes aportar a este proyecto en <a href="https://github.com/JapCrowley/useful-git-commands"> GitHub</a>
+        </p>
+        <h2>
+            COMANDOS BÁSICOS            
+        </h2>
+        <p>
+            <ul>
+                <li>
+                    <strong>git init:</strong> crear un repositorio.
+                </li>
+                <li>
+                    <strong>git add:</strong> agregar un archivo a staging.
+                </li>
+                <li>
+                    <strong>git commit -m “mensaje”:</strong> guardar el archivo en git con un mensaje.
+                </li>
+                <li>
+                    <strong>git branch:</strong> crear una nueva rama.
+                </li>
+                <li>
+                    <strong>git checkout:</strong> moverse entre ramas.
+                </li>
+                <li>
+                    <strong>git push:</strong> mandar cambios a un servidor remoto.
+                </li>
+                <li>
+                    <strong></strong> traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local.
+                </li>
+                <li>
+                    <strong>git merge:</strong> tiene dos usos. Uno es la fusión de ramas, funcionando como un commit en la rama actual, trayendose la rama indicada. El otro uso es guardar los cambios de un servidor    remoto en nuestro directorio.
+                </li>
+                <li>
+                    <strong>git pull:</strong> fetch y merge al mismo tiempo.
+                </li>
+            </ul>    
+        </p>
+        <h2>
+            Comandos Para volver atrás o Corregir
+        </h2>
+        <p>
+        <ul>
+            <li>
+                git checkout “codigo de version” “nombre del archivo”: volver a la ultima version commiteada.
+            </li>
+            <li>
+                <strong>git reset:</strong> vuelve al pasado sin posibilidad de volver al futuro, se debe usar con especificaciones.
+            </li>
+            <li>
+                <strong>git reset --soft:</strong> vuelve a la versión en el repositorio pero guarda los cambios en staging, así podemos aplicar actualizaciones a un nuevo commit.
+            </li>
+            <li>
+                <strong>git reset --hard:</strong> TODO VUELVE A LA VERSIÓN ANTERIOR
+            </li>
+            <li>
+                <strong>git reset HEAD:</strong> saca los cambios de staging pero no los borra, es lo opuesto a git add.
+            </li>
+            <li>        
+                <strong>git rm:</strong> elimina los archivos pero no su historial, si queremos recuperar algo solo hay que regresar, se usa así:
+            </li>
+            <li>                
+                <strong>git rm --cached:</strong> elimina los archivos en staging pero los mantiene en el disco duro.
+            </li>
+            <li>
+                <strong>git rm --force:</strong> elimina los archivos de git y del disco duro.
+            </li>
+        </ul>
+        </p>
+        <p>
+    <h2>
+        Comandos para Revisar y Comparar
+    </h2>
+    <ul>
+        <li>
+            <strong>git status:</strong> estado de archivos en el repositorio.
+        </li>
+        <li>
+            <strong>git log:</strong> historia entera del archivo.
+        </li>
+        <li>
+            <strong>git log --stat:</strong> cambios específicos en el archivo a partir de un commit.
+        </li>
+        <li>
+            <strong>git show:</strong> cambios históricos y específicos hechos en un archivo.
+        </li>
+        <li>
+            <strong>git diff “codigo de version 1” “codigo de version 2”:</strong> comparar cambios entre versiones.
+        </li>
+        <li>
+            <strong>git diff:</strong> comparar directorio con staging.
+        </li>
+    </ul>
+        </p>
+        <h2>
+            Tags
+        </h2>
+        <p>
+            <ul>
+                <li>
+                    git tag -a nombre-del-tag id-del-commit: Crear un nuevo tag y asignarlo a un commit
+                </li>
+                <li>
+
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </p>
+        </p>
+    </main>
 </body>
 </html>
