@@ -42,6 +42,7 @@ body {
 }
 a {
     text-decoration: none;
+    color: #C77DFF;
 }
 h1 {
     text-align: center;
@@ -103,4 +104,12 @@ main li  {
 main strong {
     font-size: 2rem;
     color: #7B2CBF;
+}
+footer {
+    height: 20px;
+    max-width: 100%;
+    background: #5A189A;
+    color: white;
+    text-align: center;
+    padding-left: 3rem;
 }
