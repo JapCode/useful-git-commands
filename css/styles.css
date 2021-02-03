@@ -127,5 +127,63 @@ footer {
     padding-left: 3rem;
 }
 @media screen and (max-width: 767px) {
-    
+    html {
+        scroll-padding-top: 70px;
+    }
+    .menu {
+        display: block;
+        margin:  0 auto;
+        text-align: center;
+        max-width: 100vw;
+    }
+    header {
+        height: 10%;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+    .menu .logo-git {
+        position: fixed;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px auto;
+        color: #C77DFF;
+        width: 90%;
+        
+    }
+    .burger-button{
+        display: flex;
+    }
+    .menu .menu-elements {
+        position: fixed;
+        z-index: 1;
+        background-color: rgba(16, 0, 43, .9);
+        max-width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 0.3s;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 4vh;
+        margin: 16% auto;
+    }
+    .menu-elements.is-active {
+        top: -300vh;
+    }
+    .menu .menu-elements li {
+        display: block;
+        border-bottom: 1px solid white; 
+        padding: 1rem 0;
+    }
+    main .flotante {
+        padding-right: .2rem;
+        padding-bottom: 1rem;
+    }
 }

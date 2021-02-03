@@ -10,11 +10,12 @@
 </head>
 <body>
     <header>
-        <nav class="menu" id="menu-principal">
+        <nav class="menu">
             <div class="logo-git">
-                <a href="https://git-scm.com"> <i class="icon-git"></i> Git</a>
+                <a href="https://git-scm.com" target="_blank"> <i class="icon-git"></i> Git</a>
+                <i class="icon-menu burger-button" id="burger-menu"></i>
             </div>
-            <ul class="menu-elements">
+            <ul class="menu-elements is-active">
                 <!--  <li>
                     <i class="icon-menu"></i>
                 </li> -->
@@ -35,9 +36,9 @@
         </nav>
     </header>
     <main>
-        <h1>Comandos Utiles de Git</h1>
+        <h1  id="principal">Comandos Utiles de Git</h1>
         <p>
-            este proyecto esta hecho recolectandon informacion de el <a href="https://platzi.com/clases/git-github/"> Curso Profesional de Git y GitHub</a> en <a href="https://platzi.com/home"> Platzi</a> con el fin de ayudarme a recordar algun comando de git en caso de que lo olvide y para practicar un poco de html y css, si haz llegado hazta aqui y te intereso el tema y tienes ideas para mejorarlo recuerda que puedes aportar a este proyecto en <a href="https://github.com/JapCrowley/useful-git-commands"> GitHub</a>
+            este proyecto esta hecho recolectandon informacion de el <a href="https://platzi.com/clases/git-github/" target="_blank"> Curso Profesional de Git y GitHub</a> en <a href="https://platzi.com/home" target="_blank"> Platzi</a> con el fin de ayudarme a recordar algun comando de git en caso de que lo olvide y para practicar un poco de html y css, si haz llegado hazta aqui y te intereso el tema y tienes ideas para mejorarlo recuerda que puedes aportar a este proyecto en <a href="https://github.com/JapCrowley/useful-git-commands" target="_blank"> GitHub</a>
         </p>
         <hr>
         <h2 id="Comandos basicos">
@@ -80,9 +81,9 @@
         </h2>
         <p>
         <ul>
-            <li>
-                git checkout “codigo de version” “nombre del archivo”: volver a la ultima version commiteada.
-            </li>
+           <!--  <li>
+                <strong>git checkout:</strong> “codigo de version” “nombre del archivo”: volver a la ultima version commiteada.
+            </li> -->
             <li>
                 <strong>git reset:</strong> vuelve al pasado sin posibilidad de volver al futuro, se debe usar con especificaciones.
             </li>
@@ -156,11 +157,12 @@
             </ul>
         </p>
         </p>
-        <a class="flotante" href="#menu-principal"><i class="icon-circle-up"></i> </a>
+        <a class="flotante" href="#principal"><i class="icon-circle-up"></i> </a>
     </main>
     <footer>
         desing for JAP
         <!-- si alguien mas se une es libre de agregar su nombre -->
     </footer>
+    <script src="/javascript.js"></script>
 </body>
 </html>
